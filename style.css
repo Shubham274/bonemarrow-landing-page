@@ -1,0 +1,518 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.poster {
+  background-image: url(./images/Banner_mage.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.poster-content {
+  width: 60%;
+  margin: 1rem 5rem;
+}
+
+.aster-logo-white {
+  width: 13rem;
+  height: auto;
+}
+
+.adult-paediatric-b {
+  color: #ffffff;
+  font-family: 'Titillium';
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 40px;
+  width: 622px;
+  text-align: left;
+  margin-top: 5rem;
+}
+
+.haematology-oncolo {
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 3.59px;
+  line-height: 34px;
+  width: 599px;
+  text-align: left;
+}
+
+.appointment-btn {
+  background-color: #dd5a6a;
+  color: #fff;
+  border-radius: 3.2px;
+  width: 186px;
+  height: 45px;
+  border: none;
+  margin-top: 3rem;
+}
+
+.form-content {
+  width: 40%;
+  margin-top: 2rem;
+}
+
+.form {
+  background-color: #ffffff;
+  box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+  width: 339px;
+  height: 492px;
+}
+
+.form-wrapper {
+  padding: 2rem;
+}
+
+.enquire-now {
+  color: #213559;
+  font-size: 20.08px;
+  line-height: 24px;
+  width: 127px;
+  text-align: left;
+}
+
+.form-input {
+  border: 0.87px solid #d0d0d0;
+  width: 278px;
+  height: 42px;
+  margin-top: 1rem;
+}
+
+.form-input.textarea {
+  height: 72px;
+}
+
+::placeholder {
+  color: #213559;
+  font-size: 12.22px;
+  line-height: 15px;
+  width: 36px;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+input[type='email']::placeholder {
+  width: 51px;
+}
+
+input[type='number']::placeholder,
+textarea::placeholder {
+  width: 91px;
+}
+
+textarea::placeholder {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.verification-box {
+  background-color: #ffffff;
+  border: 0.87px solid #d0d0d0;
+  width: 278px;
+  height: 77px;
+  margin-top: 1rem;
+}
+
+.box {
+  background-color: #ffffff;
+  border: 0.87px solid #979797;
+  border-radius: 0.87px;
+  width: 18px;
+  height: 18px;
+}
+
+.robot-text {
+  color: #213559;
+  font-size: 12.22px;
+  line-height: 15px;
+  width: 92px;
+  text-align: left;
+}
+
+.box-text {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+
+.submit {
+  background-color: #dd5a6a;
+  width: 111px;
+  height: 44px;
+  margin-top: 1rem;
+  color: #fff;
+  border: none;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+.transplant-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.transplant-image {
+  flex: 1;
+}
+
+.heading-text-div {
+  /* background: radial-gradient(#e66465, #9198e5); */
+  background: radial-gradient(35.15% 100%, #2ec4b8 0%, #6078ea 100%);
+  border-radius: 4px;
+  width: 586px;
+  height: 95px;
+  display: flex;
+}
+.replacement-of-disea {
+  color: #000000;
+  font-size: 17px;
+  line-height: 20px;
+  width: 532px;
+  text-align: left;
+}
+
+.bone-marrow-transpla {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 26px;
+  width: 545px;
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.medicines-and-in-cer {
+  color: #000000;
+  font-size: 17px;
+  line-height: 20px;
+  width: 623px;
+  text-align: left;
+}
+
+.in-autologous-bone-m {
+  color: #000000;
+  font-size: 17px;
+  line-height: 20px;
+  width: 605px;
+  text-align: left;
+}
+
+.text-container p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.line-3 {
+  border: 1px solid #ececff;
+  width: 623px;
+  height: 2px;
+}
+
+.doctors {
+  color: #22b78e;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.doctors-section-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.rectangle {
+  background-color: #f9f9ff;
+  border-radius: 4px;
+  width: 539px;
+  height: 1064px;
+}
+
+.pediatric-bmt {
+  color: #22b78e;
+  font-size: 24px;
+  letter-spacing: 0.99px;
+  line-height: 44px;
+  text-align: left;
+}
+.dr-vijay-agarwal-copy {
+  color: #1d5aa6;
+  font-size: 22px;
+  letter-spacing: 1.76px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.md-mrcp-ph-d-cct-le-copy {
+  color: #1d5aa6;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  line-height: 3px;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.dr-vijay-agarwal-is-copy {
+  color: #000000;
+  font-size: 15px;
+  line-height: 20px;
+  width: 423px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.line-5-copy {
+  border: 1px solid #22b78e;
+  width: 37px;
+  height: 1px;
+  margin-top: 1rem;
+}
+
+.doctor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctor-card:last-child {
+  margin-top: 5rem;
+}
+
+.know-more-btn {
+  background-image: radial-gradient(35.15% 100%, #17ead9 0%, #6078ea 100%);
+  border-radius: 4px;
+  width: 129px;
+  height: 49px;
+  color: #fff;
+  border: none;
+  margin-top: 2rem;
+}
+
+.what-are-the-types-o {
+  color: #22b78e;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.autologous-bone-marr {
+  color: #000000;
+  font-size: 14px;
+  line-height: 39px;
+  width: 1068px;
+  text-align: left;
+}
+
+.type-text {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.signs-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 3rem;
+}
+
+.signs-card {
+  background-color: #ffffff;
+  border: 1px solid #e5eaff;
+  border-radius: 4px;
+  box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+  width: 255px;
+  padding: 2rem;
+  height: 170px;
+}
+
+.signs-text {
+  color: #000000;
+  font-size: 14px;
+  line-height: 21px;
+  width: 198px;
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+.warning-signs-heading {
+  color: #22b78e;
+  font-family: StagSans;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading h2 {
+  color: #1d5aa6;
+  font-family: StagSans;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: 22px;
+  width: 797px;
+  text-align: left;
+}
+
+.condition-text-wrapper {
+  margin-top: 1rem;
+}
+
+.conditions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.condition-questions .heading h2 {
+  width: 994px;
+  margin-top: 1rem;
+}
+
+.line-3-copy-2 {
+  border: 1px solid #ececff;
+  width: 1111px;
+  height: 10px;
+  margin-top: 10px;
+  margin-bottom: 2rem;
+}
+
+.testimonial-heading {
+  color: #22b78e;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.test-para {
+  color: #000000;
+  font-size: 15px;
+  line-height: 21px;
+  width: 609px;
+  text-align: left;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.user-desc {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-desc p {
+  color: #000000;
+  font-family: StagSans;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+}
+
+.testimonial-user {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+  width: 517px;
+  height: 249px;
+}
+
+.user-text {
+  margin-top: 1.5rem;
+}
+
+.user-text p {
+  color: #000000;
+  font-family: StagSans;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 21px;
+  width: 410px;
+  text-align: left;
+}
+
+.test-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.test-btn {
+  background-color: #004498;
+  border-radius: 3.81px;
+  width: 221px;
+  height: 54px;
+  color: #fff;
+  border: none;
+}
+
+footer {
+  padding: 5rem;
+  background-color: #272727;
+  height: 256px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.footer-icons-wrapper img {
+  margin-right: 0.3rem;
+}
+
+.line-4 {
+  border: 1px solid rgba(255, 255, 255, 0.21);
+  opacity: 0.3701869419642857;
+  width: 1110px;
+  height: 2px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-txt {
+  color: #ffffff;
+  font-family: StagSans;
+  font-size: 14px;
+  letter-spacing: 1.12px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.arrow {
+  background-color: #ffffff;
+  border: 0.6px solid #979797;
+  border-radius: 2.4px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 65rem;
+  bottom: 2rem;
+  cursor: pointer;
+}
